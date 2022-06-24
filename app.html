@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="jogo.js"></script>
+</head>
+<body onresize="ajustaTamanhoPalcoJogo()">
+	<div class="painel">
+		<div class="vidas">
+			<img id="v1" src="imagens/imagens/coracao_cheio.png"/>
+			<img id="v2" src="imagens/imagens/coracao_cheio.png"/>
+			<img id="v3" src="imagens/imagens/coracao_cheio.png"/>
+		</div>
+		<div class="cronometro">Tempo Restante:
+			
+		</div>
+	</div>
+    <script>
+    		setInterval(function(){
+    		posicaoRandomica()
+    	}, 1500)
+    </script>
+</body>
+</html>
